@@ -1,0 +1,18 @@
+The beginner-friendly Python code is available here. 
+Identifying even numbers with understandable code. 
+Here's the step by step code to find even numbers in a list.
+
+def even_check(x)://we created a function name even_check
+    
+    list = [20,27,3,4,5,6,24,8,45,77,23,32] //then created a list you can either create list before function
+    
+    for x in list:  //We use for loop statement to get access to each number in a list
+        if x %2 == 0: // then we check x in list using if statement
+            print('even') //Pass Print statement even if our number in list is even
+        else:   //else statement 
+            print("none") //Pass statement for to get print if we do not have any even in list 
+ 
+even_check(list) //Finally function called to excuate code.
+
+I hope this simple code will help you.
+    
