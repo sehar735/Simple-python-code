@@ -1,0 +1,23 @@
+Simple calculation program using while and if,else statement 
+
+while True:
+    user_enter = input("Enter operation:Add,Subtract,Divide,Multiply:\n")
+    x = int(input("Enter first value:\n"))
+    y = int(input("Enter second value:\n"))
+    if user_enter == "Add" or user_enter == "add":
+        print("Your answer is :",x+y)
+    if user_enter == "Subtract"  or user_enter == "subtract":
+        print("Your answer is :",x-y)
+    if user_enter == "Multiply"  or user_enter == "multiply":
+        print("Your answer is :",x*y)
+    if user_enter == "Divide"  or user_enter == "divide":
+        print("Your answer is :",x/y)
+   
+    z = input("Want to add more(Yes,No):\n")
+    
+    if z == "yes":
+        continue
+    elif z == "no":
+        print("Thanks for your time....")
+    break
+   
