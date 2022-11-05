@@ -1,0 +1,17 @@
+Simple number program to find out that your entered number is in list or not
+The first thing I'd suggest is to check out for indentation.. 
+while True:
+ list = [1,2,5,6,9,10,3,4,0]
+ user_enter = int(input("Enter any number from (0 to 15): \n"))
+ if user_enter in  list:
+   print("Number is in list\n",list)
+ elif user_enter not in list:
+   print("Number not in list")
+ z=int(input("Enter again:\n"))
+ 
+ if z in list:
+   print("Number is in list\n",list)
+ else:
+   print("Number not in list")
+    
+    
